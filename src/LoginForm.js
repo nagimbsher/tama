@@ -1,10 +1,13 @@
+
 import React, { useState } from 'react';
 import VideoList from './components/VideoList'; 
 
 import './App.css';
+
 function LoginForm() {
     const [credentials, setCredentials] = useState({ username: '', password: '' });
     const [isLoggedIn, setIsLoggedIn] = useState(false); 
+    const [error, setError] = useState(''); // Define the error state
 
     const handleChange = (e) => {
         setCredentials({
@@ -29,20 +32,21 @@ function LoginForm() {
                 const data = await response.json();
                 console.log('Login successful:', data);
                 setIsLoggedIn(true); 
-                
+                setError(''); // Reset error message
             } else {
                 console.log('Login failed:', response.status);
-                
+                setError('Incorrect username or password. Please try again.'); // Set error message
             }
         } catch (error) {
             console.error('Request failed:', error);
-            
+            setError('An error occurred while logging in. Please try again later.'); // Set error message
         }
     };
 
     return (
         <div className="auth-background">
-          
+          {error && <div className="error-message">{error}</div>}
+
             {!isLoggedIn ? (
                 <form onSubmit={handleSubmit}>
                     <div>
@@ -79,5 +83,6 @@ function LoginForm() {
 }
 
 export default LoginForm;
+
 
 
