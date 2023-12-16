@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tama/static/css/main.97abd960.css",
-    "main.js": "/tama/static/js/main.88be3118.js",
+    "main.css": "/tama/static/css/main.1fc6ba67.css",
+    "main.js": "/tama/static/js/main.8af2e0fe.js",
     "index.html": "/tama/index.html",
-    "main.97abd960.css.map": "/tama/static/css/main.97abd960.css.map",
-    "main.88be3118.js.map": "/tama/static/js/main.88be3118.js.map"
+    "main.1fc6ba67.css.map": "/tama/static/css/main.1fc6ba67.css.map",
+    "main.8af2e0fe.js.map": "/tama/static/js/main.8af2e0fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.97abd960.css",
-    "static/js/main.88be3118.js"
+    "static/css/main.1fc6ba67.css",
+    "static/js/main.8af2e0fe.js"
   ]
 }
