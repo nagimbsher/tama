@@ -1,4 +1,36 @@
 
+.video-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #cac70c;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 70%;
+    background-color: aqua;
+}
+
+.search-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: green; 
+}
+
+
 .video-list {
     list-style-type: none;
     padding: 0;
@@ -8,6 +40,7 @@
     grid-gap: 20px;
 }
 
+
 .video-item {
     position: relative;
     overflow: hidden;
@@ -16,13 +49,11 @@
     padding: 15px;
     border-radius: 8px;
     background-color: #f9f9f9;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
 
 .video-item:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 8px rgba(46, 122, 11, 0.3);
     transform: translateY(-5px);
 }
-
-

@@ -38,7 +38,7 @@ function AuthPage() {
                     if (response.status === 409) {
                         setRegistrationError('Account already exists. Please choose a different username.');
                     } else {
-                        setRegistrationError('An error occurred during registration. Please try again.');
+                        setRegistrationError('Account already exists. Please choose a different username.');
                     }
                 }
             }

@@ -1,7 +1,5 @@
-
 import React, { useState } from 'react';
 import VideoList from './components/VideoList'; 
-
 import './App.css';
 
 function LoginForm() {
@@ -73,8 +71,8 @@ function LoginForm() {
                 </form>
             ) : (
                 <>
-                
                 <VideoList />
+              
                 </>
                 
             )}
