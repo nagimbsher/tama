@@ -50,7 +50,9 @@ function AuthPage() {
 
     return (
         <div className="auth-page-container">
-            <iframe
+            <img src="https://cdn.vectorstock.com/i/preview-1x/67/87/dancing-people-on-ethnic-background-with-african-vector-29476787.jpg" alt="A traditional Tama drum" style={{ width: '100%', height: 'auto' }} />
+{/*        
+             <iframe
                 width="100%"
                 height="100%"
                 src="https://www.youtube.com/embed/CGCOdMM1WPo?autoplay=1&mute=1&loop=1&controls=0"
@@ -58,7 +60,7 @@ function AuthPage() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
             ></iframe>
-            
+              */}
             <div>
                 <h1>Welcome to Tama Insights: Your Portal to Cultural Discovery</h1>
                 {registrationError && <div className="error-message">{registrationError}</div>}
