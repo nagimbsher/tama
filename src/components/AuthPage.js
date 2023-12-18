@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import LoginForm from '../LoginForm';
+import WikipediaContent from './WikipediaContent';
 import '../App.css';
 import './AuthPage.css';
 
@@ -66,11 +67,14 @@ function AuthPage() {
                 {registrationError && <div className="error-message">{registrationError}</div>}
     
                 {isLogin ? (
+                    <>
                     <LoginForm
                         handleChange={handleChange}
                         handleSubmit={handleSubmit}
                         formData={formData}
                     />
+                    <WikipediaContent />
+                    </>
                 ) : (
                     <form onSubmit={handleSubmit}>
                         <div>

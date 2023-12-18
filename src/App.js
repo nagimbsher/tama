@@ -1,4 +1,3 @@
-
 import React from 'react';
 import AuthPage from './components/AuthPage';
 
@@ -11,5 +10,3 @@ function App() {
 }
 
 export default App;
-
-
