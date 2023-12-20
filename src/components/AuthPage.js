@@ -97,11 +97,11 @@ function AuthPage() {
                                 required
                             />
                         </div>
-                        <button type="submit">Register</button>
+                        <button type="submit">Create</button>
                     </form>
                 )}
                 <button onClick={() => setIsLogin(!isLogin)}>
-                    {isLogin ? 'Create an account? Register' : 'Already have an account? Login'}
+                    {isLogin ? 'Create an account?' : 'Already have an account? Login'}
                 </button>
             </div>
         </div>
