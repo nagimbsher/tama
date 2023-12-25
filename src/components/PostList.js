@@ -15,7 +15,7 @@ function PostList() {
             {posts.map(post => (
                 <div key={post.id}>
                     <h2>{post.content}</h2>
-                    {/* Display other post details */}
+                  
                 </div>
             ))}
         </div>
