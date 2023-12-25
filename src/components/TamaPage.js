@@ -32,10 +32,10 @@ function TamaPage() {
             <WikipediaContent />
             <button className="submit-button" onClick={handleTamaMusic}>Tama Music</button>
             
-            <button className="submit-button" onClick={handleDream}>Dream</button>
+            <button className="submit-button" onClick={handleDream}> Tama Dream</button>
             
            
-            <button className="submit-button" onClick={handleTeachingTama}>Teaching Tama</button>
+            <button className="submit-button" onClick={handleTeachingTama}>Tama Language</button>
 
             <a href="https://en.wikipedia.org/wiki/Tama_people" className="learn-more-link" target="_blank" rel="noopener noreferrer">Learn More about tama</a>
 

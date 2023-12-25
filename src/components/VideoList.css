@@ -4,7 +4,7 @@
     overflow-x: auto; 
 }
 
-.video-list {
+/* .video-list {
     display: flex;
     flex-direction: row; 
     padding: 0;
@@ -25,7 +25,44 @@
    
     transition: transform 0.5s ease, box-shadow 0.5s ease;
     
+} */
+
+
+
+
+.video-list-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden; 
+    margin-top: 20px;
 }
+
+.video-list {
+    
+    display: flex; 
+    flex-direction: row; 
+    overflow-x: auto; 
+    padding: 0;
+    margin-top: 20px;
+    gap: 10px; 
+    scrollbar-width: none; 
+}
+
+.video-item {
+  
+    flex: 0 0 auto;
+    
+    width: 300px; 
+    height: 169px; 
+
+}
+
+
+
+
+
 
 .video-item:hover {
     transform: scale(1.05); 
