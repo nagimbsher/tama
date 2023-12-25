@@ -4,6 +4,7 @@ import VideoList from './VideoList';
 import WikipediaContent from './WikipediaContent';
 
 
+
 function TamaPage() {
     
     const handleTamaMusic = () => {
@@ -25,7 +26,7 @@ function TamaPage() {
             </div>
             <div className="breadcrumb">
                
-                <a href="/">Long in </a>
+
             </div>
           
             <WikipediaContent />
