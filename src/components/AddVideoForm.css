@@ -1,0 +1,43 @@
+/* AddVideoForm.css */
+
+.add-video-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.add-video-form .input-title,
+.add-video-form .input-url,
+.add-video-form .textarea-description {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.add-video-form .input-title:focus,
+.add-video-form .input-url:focus,
+.add-video-form .textarea-description:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.add-video-form .submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.add-video-form .submit-button:hover {
+    background-color: #0056b3;
+
+}

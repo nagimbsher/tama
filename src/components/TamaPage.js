@@ -2,6 +2,7 @@ import React from 'react';
 import './TamaPage.css'; 
 import VideoList from './VideoList';
 import WikipediaContent from './WikipediaContent';
+import LoginForm from '../LoginForm';
 
 
 
@@ -40,6 +41,7 @@ function TamaPage() {
             <a href="https://en.wikipedia.org/wiki/Tama_people" className="learn-more-link" target="_blank" rel="noopener noreferrer">Learn More about tama</a>
 
             <VideoList />
+            <LoginForm />
         </div>
     );
 }
