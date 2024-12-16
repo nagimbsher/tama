@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import AuthPage from './components/AuthPage';
 import VideoList from './components/VideoList';
-import TamaPage from './components/TamaPage'; // Import the new component
+import TamaPage from './components/TamaPage'; 
 
 function App() {
     return (
@@ -23,42 +23,20 @@ export default App;
 
 
 
-
-
 // import React from 'react';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import TamaPage from './TamaPage';
-// import TamaMusic from './TamaMusic'; // Your Tama music component
-// import Dream from './Dream'; // Your Dream component
-// import TeachingTama from './TeachingTama'; // Your Teaching Tama component
-
-// function App() {
-//   return (
-//     <Router>
-//       <Routes>
-//         <Route path="/" element={<TamaPage />} />
-//         <Route path="/tama-music" element={<TamaMusic />} />
-//         <Route path="/dream" element={<Dream />} />
-//         <Route path="/teaching-tama" element={<TeachingTama />} />
-//         {/* Add other routes as needed */}
-//       </Routes>
-//     </Router>
-//   );
-// }
-
-// export default App;
-
-
-
-
-
-// import React from 'react';
-// import AuthPage from './components/AuthPage';
+// import { Routes, Route, Navigate } from 'react-router-dom';
+// import VideoList from './components/VideoList';
+// import TamaPage from './components/TamaPage'; 
 
 // function App() {
 //     return (
 //         <div className="App">
-//             <AuthPage />
+//             <Routes>
+//                 <Route path="/" element={<Navigate to="/VideoList" replace />} /> {/* Redirect */}
+//                 <Route path="/VideoList" element={<VideoList />} />
+//                 <Route path="/tama" element={<TamaPage />} /> {/* New Route */}
+//                 {/* Add more Route elements here */}
+//             </Routes>
 //         </div>
 //     );
 // }
